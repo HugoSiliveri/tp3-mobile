@@ -3,7 +3,7 @@
     <string name="main_activity">Main Activity</string>
     <string name="title_activity_form">FormActivity</string>
     <string name="title_activity_exo1_fragment">Exo1Fragment</string>
-    <string name="title_activity_exo1_fragment_activity">Exo1FragmentActivity</string>
+    <string name="title_activity_exo1_activity">Exo1Activity</string>
     <string name="login">Login</string>
     <string name="password">Password</string>
     <string name="firstname">FirstName</string>
@@ -17,4 +17,6 @@
     <string name="reading">Reading</string>
     <string name="gaming">Gaming</string>
     <string name="submit">Submit</string>
+    <string name="exo1_activity">Exo1 Activity</string>
+    <string name="create_account">Create account :</string>
 </resources>

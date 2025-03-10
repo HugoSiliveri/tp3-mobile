@@ -4,9 +4,100 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <FrameLayout
-        android:id="@+id/fragmentContainer"
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="wrap_content"
+        android:text="@string/create_account"
+        android:fitsSystemWindows="true"/>
 
+    <EditText
+        android:id="@+id/editTextLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/login" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/password" />
+
+    <EditText
+        android:id="@+id/editTextTextFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/firstname" />
+
+    <EditText
+        android:id="@+id/editTextLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/lastname" />
+
+    <EditText
+        android:id="@+id/editTextBirthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="@string/birthday" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="@string/phone_number" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_a_hobby" />
+
+        <RadioButton
+            android:id="@+id/radioButtonSport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sport" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMusic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/music" />
+
+        <RadioButton
+            android:id="@+id/radioButtonReading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reading" />
+
+        <RadioButton
+            android:id="@+id/radioButtonGaming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gaming" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit" />
 </LinearLayout>

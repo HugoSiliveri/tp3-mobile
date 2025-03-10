@@ -12,7 +12,7 @@ class MainActivity : ComponentActivity() {
 
         val buttonExo1 = findViewById<Button>(R.id.buttonExo1)
         buttonExo1.setOnClickListener {
-            val intent = Intent(this, Exo1FragmentActivity::class.java)
+            val intent = Intent(this, Exo1Activity::class.java)
             startActivity(intent)
         }
     }

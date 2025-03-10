@@ -12,13 +12,10 @@
         android:supportsRtl="true"
         tools:targetApi="31">
         <activity
-            android:name=".Exo1Fragment"
+            android:name=".Exo1Activity"
             android:exported="false"
-            android:label="@string/title_activity_exo1_fragment" />
-        <activity
-            android:name=".Exo1FragmentActivity"
-            android:exported="false"
-            android:label="@string/title_activity_exo1_fragment_activity" />
+            android:label="@string/title_activity_exo1_activity"
+            android:theme="@style/Theme.MyApp"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

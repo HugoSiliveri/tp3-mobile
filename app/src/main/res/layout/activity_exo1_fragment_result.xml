@@ -5,11 +5,9 @@
     android:layout_height="match_parent"
     android:gravity="center">
 
-    <Button
-        android:id="@+id/buttonExo1"
+    <TextView
+        android:id="@+id/textViewResult"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="@string/exo1_activity" />
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
