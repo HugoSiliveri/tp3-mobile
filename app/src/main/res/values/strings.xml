@@ -26,4 +26,11 @@
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_signup">SignupActivity</string>
     <string name="title_activity_planning">PlanningActivity</string>
+    <string name="slot_one">08h-10h :</string>
+    <string name="slot_two">10h-12h :</string>
+    <string name="slot_three">14h-16h :</string>
+    <string name="slot_four">16h-18h :</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_planning_view">PlanningViewActivity</string>
+    <string name="the_planning_for_this_day">The planning for</string>
 </resources>

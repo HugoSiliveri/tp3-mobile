@@ -12,6 +12,10 @@
         android:supportsRtl="true"
         tools:targetApi="31">
         <activity
+            android:name=".PlanningViewActivity"
+            android:exported="false"
+            android:label="@string/title_activity_planning_view" />
+        <activity
             android:name=".PlanningActivity"
             android:exported="false"
             android:label="@string/title_activity_planning" />

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/textViewInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fitsSystemWindows="true"
+        android:text="@string/the_planning_for_this_day" />
+
+    <TextView
+        android:id="@+id/textViewSlotOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/slot_one" />
+
+
+    <TextView
+        android:id="@+id/textViewSlotTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/slot_two" />
+
+
+    <TextView
+        android:id="@+id/textViewSlotThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/slot_three" />
+
+    <TextView
+        android:id="@+id/textViewSlotFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/slot_four" />
+
+</LinearLayout>

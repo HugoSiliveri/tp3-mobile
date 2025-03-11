@@ -25,8 +25,10 @@ class LoginActivity : ComponentActivity() {
             val login = editTextLogin.text.toString()
             val password = editTextPassword.text.toString()
 
-            if (dbExo1.checkUser(login, password)) {
+            if (dbExo1.getUser(login, password) != null) {
                 val intent = Intent(this, PlanningActivity::class.java)
+                intent.putExtra("login", login)
+                intent.putExtra("password", password)
                 startActivity(intent)
             } else {
                 Toast.makeText(this, "Login ou mot de passe incorrect", Toast.LENGTH_SHORT).show()

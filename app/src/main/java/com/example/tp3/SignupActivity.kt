@@ -113,7 +113,7 @@ class SignupActivity : ComponentActivity() {
     // Vérification de la date de naissance (doit avoir au moins 18 ans)
     private fun validateBirthday(editText: EditText): Boolean {
         val dateStr = editText.text.toString()
-        val dateFormat = SimpleDateFormat("dd-MM-yyyy", Locale.getDefault())
+        val dateFormat = SimpleDateFormat("dd/MM/yyyy", Locale.getDefault())
 
         dateFormat.isLenient = false
         try {
@@ -121,7 +121,7 @@ class SignupActivity : ComponentActivity() {
             editText.error = null
             return true
         } catch (e: Exception) {
-            editText.error = "Format de date invalide (utilisez JJ-MM-AAAA)"
+            editText.error = "Format de date invalide (utilisez JJ/MM/AAAA)"
             return false
         }
     }
