@@ -6,17 +6,18 @@
     android:gravity="center">
 
     <Button
-        android:id="@+id/buttonExo1"
+        android:id="@+id/buttonLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/exo1_activity" />
+        android:text="@string/login_activity" />
 
     <Button
-        android:id="@+id/buttonExo2"
+        android:id="@+id/buttonSignup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/exo2_activity" />
+        android:text="@string/sign_up_activity" />
+
 
 </LinearLayout>

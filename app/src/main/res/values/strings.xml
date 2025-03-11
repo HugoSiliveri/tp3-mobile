@@ -19,4 +19,11 @@
     <string name="submit">Submit</string>
     <string name="exo1_activity">Exo1 Activity</string>
     <string name="create_account">Create account :</string>
+    <string name="title_activity_exo2">Exo2Activity</string>
+    <string name="exo2_activity">Exo2 Activity</string>
+    <string name="login_activity">Login Activity</string>
+    <string name="sign_up_activity">Sign up Activity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_planning">PlanningActivity</string>
 </resources>

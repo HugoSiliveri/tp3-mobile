@@ -15,5 +15,11 @@ class MainActivity : ComponentActivity() {
             val intent = Intent(this, Exo1Activity::class.java)
             startActivity(intent)
         }
+
+        val buttonExo2 = findViewById<Button>(R.id.buttonExo2)
+        buttonExo2.setOnClickListener {
+            val intent = Intent(this, Exo2Activity::class.java)
+            startActivity(intent)
+        }
     }
 }

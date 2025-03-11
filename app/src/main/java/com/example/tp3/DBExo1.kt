@@ -93,6 +93,24 @@ class DBExo1(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME, null, 
         return user
     }
 
+    fun userExists(login: String): Boolean {
+        val db = readableDatabase
+        val cursor = db.rawQuery("SELECT * FROM users WHERE login = ?", arrayOf(login))
+        val exists = cursor.count > 0
+        cursor.close()
+        db.close()
+        return exists
+    }
+
+    fun checkUser(login: String, password: String): Boolean {
+        val db = readableDatabase
+        val cursor = db.rawQuery("SELECT * FROM users WHERE login = ? AND password = ?", arrayOf(login, password))
+        val exists = cursor.count > 0
+        cursor.close()
+        db.close()
+        return exists
+    }
+
     companion object {
         private const val DATABASE_NAME = "users.db"
         private const val DATABASE_VERSION = 1
